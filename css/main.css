@@ -133,10 +133,16 @@ color: black;
 .nav-left{
 /*margin-left: 35px;*/
 background-color:#edcd1f;
+width: 280px;
+padding-bottom: 14px;
 
-padding-left: 20px;
 
 
+
+}
+.til{
+display: inline-block;
+width: 70%;
 
 }
 .cinco{
@@ -292,3 +298,8 @@ h2:after{
   width: 50%;
 
 }*/
+.idea{
+
+  width: 20%;
+  height: 20%;
+}
