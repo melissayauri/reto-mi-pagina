@@ -120,18 +120,28 @@
 
 /*estilos generales*/
 .first-menu{
-  background-color: #24afc6;
-  height: 70px;
+  background-color: #2c3e50;
+  height: 75px;
+  font-size: 20px;
 
 }
 
 a{
   text-decoration: none;
-color: white;
+color: black;
 }
 .nav-left{
-margin-left: 35px;
-margin-top: 10px;
+/*margin-left: 35px;*/
+background-color:#edcd1f;
+
+padding-left: 20px;
+
+
+
+}
+.cinco{
+  /*background-color:#edcd1f;*/
+
 
 }
 .nav-right {
@@ -246,11 +256,39 @@ footer{
 }
 .nav-left{
 
-margin-top: 30px;
+margin: 0px;
 
+}
+.cinco{
+  padding: 0px;
 }
 .text-info{
   margin-left: 8rem;
 }
 
 }
+
+/*probad*/
+.uno{
+  background-color: #e8e8e8;
+}
+.dos{
+  background-color:
+#e8e8e8;
+
+}
+h2:after{
+  content: " ";
+   width: 100px;
+    background: #edcd1f;
+     height: 5px;
+     display: block;
+}
+/*
+.title{
+  background-color: #edcd1f;
+  padding: 3px;
+  border: 1px solid #edcd1f;
+  width: 50%;
+
+}*/
