@@ -5,25 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-    <link rel="stylesheet" href="css/main-grid.css">
+    <link rel="stylesheet" href="css/main-grid-system.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Gmeli</title>
   </head>
   <body>
+    <!--contendeor-->
     <div class="container">
+      <!--primera fila-->
       <div class="row first-menu">
-        <div class="col-xs-6 cinco">
-          <div class="nav-left">
+        <!--columna 1-->
+        <div class="col-xs-6 col-sm-6">
+          <!--menú izquierdo-->
+          <nav class="nav-left">
+            <!--imagen idea-->
             <img src="assets/images/idea.jpg" alt="" class="idea">
-            <a href="#" class="til">Advanced Technologies Solutions</a>
-          </div>
+            <a href="#" class="title">Advanced Technologies Solutions</a>
+          </nav>
         </div>
-        <div class="col-xs-6">
-          <div class="nav-right view-mobile">
-          <a href="" ><i class="fa fa-bars" aria-hidden="true"></i></a>
-          </div>
+        <!--columna 2-->
+        <div class="col-xs-6 col-sm-6">
+          <!--menu derecho-version celular-->
+          <nav class="nav-right view-mobile">
+            <a href="" ><i class="fa fa-bars" aria-hidden="true"></i></a>
+          </nav>
         </div>
-        <div class="col-xs-6">
+        <!--columna 2-->
+        <div class="col-xs-6 col-sm-6">
+          <!--menú derecho-version pc-->
           <ul class="nav-right  view-desktop">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
