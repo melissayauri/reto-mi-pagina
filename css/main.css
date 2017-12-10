@@ -8,7 +8,7 @@
 /*estilos del encabezado*/
 .first-menu{
   background-color: #2c3e50;
-  height: 60px;
+  height: 70px;
   font-size: 20px;
   position: fixed;
   width: 100%;
@@ -22,7 +22,7 @@ a{
 .nav-left{
 /*margin-left: 35px;*/
 background-color:#edcd1f;
-width: 250px;
+width: 280px;
 }
 /*titulo advanced*/
 .title{
@@ -34,14 +34,17 @@ width: 250px;
 /*aplicando estilo a la imagen idea*/
 .idea{
   /*incorporando espaciado superior*/
-  padding-top: 5px;
+  width: 20%;
+  height: 20%;
+  padding-top: 8px;
 }
+
 /*menu derecho*/
 .nav-right {
   /*ubicación a la derecha*/
   float: right;
   /*espaciado*/
-  margin-right: 50px;
+  margin-right: 30px;
   margin-top: 20px;
   font-size: 20px;
 }
@@ -106,9 +109,36 @@ ul li{
 	50% {margin-left: -200%;}
 	70% {margin-left: -200%;}
 }
+/*estilos al texto de la segunda seccion*/
+.text-info {
+  /*outline: 1px solid red;*/
+  color: #393939;
+  /*espaciados*/
+  margin-left: 3rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  /*texto justificado*/
+  text-align: justify;
+  line-height: 1.5;
+  padding: 5px;
+}
+/*agregando subrayado a los titulos*/
+h2:after{
+  content: " ";
+  width: 100px;
+  background: #edcd1f;
+  height: 5px;
+  display: block;
+  margin-bottom: 10px;
+}
 
-
-
+button{
+  background-color:  #edcd1f;
+  border: 1px solid  #edcd1f;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
 /*estilos generales*/
 
 
@@ -124,14 +154,7 @@ img{
   width: 100%;
   height: 100%;
 }
-.text-info {
-  color: #393939;
-  margin-left: 3rem;
-  margin-right: 2rem;
-  margin-top: 1rem;
-  text-align: justify;
-  line-height: 1.5;
-}
+
 .text-extra{
   margin-left: 3rem;
   margin-right: 2rem;
@@ -152,8 +175,11 @@ footer{
   .view-desktop {
     display: block;
   }
+  /*aplicando mas espaciado a la derecha*/
   .text-info{
-  margin-left: 8rem;
+    margin-left: 8rem;
+    width: 95%;
+
 }
 
 }
@@ -182,8 +208,3 @@ h2:after{
   width: 50%;
 
 }*/
-.idea{
-
-  width: 20%;
-  height: 20%;
-}
