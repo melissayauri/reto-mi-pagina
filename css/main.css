@@ -22,7 +22,7 @@ a{
 .nav-left{
 /*margin-left: 35px;*/
 background-color:#edcd1f;
-width: 280px;
+width: 290px;
 }
 /*titulo advanced*/
 .title{
@@ -44,9 +44,14 @@ width: 280px;
   /*ubicación a la derecha*/
   float: right;
   /*espaciado*/
-  margin-right: 30px;
+  margin-right: 20px;
   margin-top: 20px;
   font-size: 20px;
+}
+.nav-right i{
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
 }
 /*aparece el icono de barras*/
 .view-mobile {
@@ -110,18 +115,24 @@ ul li{
 	70% {margin-left: -200%;}
 }
 /*estilos al texto de la segunda seccion*/
+.section-info{
+  outline: 1px solid red;
+  background-color: #e8e8e8;
+}
 .text-info {
   /*outline: 1px solid red;*/
   color: #393939;
   /*espaciados*/
-  margin-left: 3rem;
+  margin-left: 25px;
   margin-right: 2rem;
   margin-top: 1rem;
   /*texto justificado*/
   text-align: justify;
   line-height: 1.5;
   padding: 5px;
+  background-color: #e8e8e8;
 }
+
 /*agregando subrayado a los titulos*/
 h2:after{
   content: " ";
@@ -131,7 +142,7 @@ h2:after{
   display: block;
   margin-bottom: 10px;
 }
-
+/*boton*/
 button{
   background-color:  #edcd1f;
   border: 1px solid  #edcd1f;
@@ -139,32 +150,53 @@ button{
   border-radius: 5px;
   margin-top: 5px;
 }
-/*estilos generales*/
-
-
-.image-principal{
-  width: 100%;
-  height: 400px;
+p{
+  margin-bottom: 15px;
 }
+/*estilos a la contenedores de la tercera seccion*/
+.third-section{
+  background-color: #e8e8e8;
+  width: 300px;
+  /*espaciado*/
+  margin-top: 5px;
+  margin-left: 25px;
+  margin-bottom: 5px;
+  margin-right: 1rem;
+}
+/*texto de la tercera seccion*/
+.text-extra {
+  /*outline: 1px solid red;*/
+  color: #393939;
+  /*espaciados*/
+  margin-left: 1rem;
+  /*texto justificado*/
+  text-align: justify;
+  line-height: 1.5;
+  padding: 5px;
+}
+/*estilos a las imagenes de la tercera sección*/
 figure{
-  outline: 1px solid red;
+  width: 100%;
   height: 200px;
 }
 img{
   width: 100%;
   height: 100%;
 }
-
-.text-extra{
-  margin-left: 3rem;
-  margin-right: 2rem;
-  margin-top: 1rem;
-}
+/*pie de pagina*/
 footer{
   background-color: gray;
-  text-align: center;
   color: white;
+  height: 40px;
+  text-align: center;
 }
+/*estilos generales*/
+
+
+
+
+
+
 /*para escritorio*/
 @media (min-width: 768px) {
   /*desaparece la version celular*/
@@ -185,21 +217,8 @@ footer{
 }
 
 /*probad*/
-.uno{
-  background-color: #e8e8e8;
-}
-.dos{
-  background-color:
-#e8e8e8;
 
-}
-h2:after{
-  content: " ";
-   width: 100px;
-    background: #edcd1f;
-     height: 5px;
-     display: block;
-}
+
 /*
 .title{
   background-color: #edcd1f;
