@@ -230,7 +230,6 @@ footer{
   }
   /* cambiando los bloques de la tercera sección*/
   .third-section{
-    outline: 1px solid red;
     margin-left: 1rem;
     /*tamaño de la caja*/
     width: 90%;
