@@ -173,7 +173,7 @@ p{
   width: 300px;
   /*espaciado*/
   margin-top: 5px;
-  margin-left: 40px;
+  margin-left: 1rem;
   margin-bottom: 5px;
   border: 1px solid #a9a9a9;
 
@@ -206,8 +206,8 @@ footer{
   text-align: center;
 }
 
-/*para escritorio*/
-@media screen and (min-width: 769px) {
+/*para tablets*/
+@media screen and (min-width: 768px) {
   /*desaparece la version celular*/
   .view-mobile{
     display: none;
@@ -224,23 +224,36 @@ footer{
   }
   /*sección contact*/
   .contact{
-    margin-left: 18rem;
+    margin-left: 10rem;
     /*ancho*/
     width: 50%;
   }
   /* cambiando los bloques de la tercera sección*/
   .third-section{
-    margin-left: 3rem;
+    outline: 1px solid red;
+    margin-left: 1rem;
     /*tamaño de la caja*/
-    width: 80%;
-    height: 500px;
+    width: 90%;
+    height:35rem;
   }
   /*cambiando el espaciado del texto de la tercera sección*/
   .text-extra{
     margin-right: 20px;
   }
+
 }
-/*ipad*/
+/*aplica para desktops*/
+@media screen and (min-width: 992px) {
+  .contact{
+    margin-left: 15rem;
+    /*ancho*/
+    width: 50%;
+  }
+  .third-section{
+    width: 80%;
+    margin-left: 3rem;
+}
+/*ipad
 @media screen and (max-width: 768px) {
   .third-section{
     margin-left: 1rem;
@@ -249,4 +262,4 @@ footer{
   .text-extra {
     margin-left: 10px;
   }
-}
+}*/

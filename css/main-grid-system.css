@@ -14,7 +14,7 @@
   float: left;
   /*outline: 1px solid black;*/
 }
-/*aplica para celulares*/
+/*xs: aplica para celulares*/
 .col-xs-1 {
   width: 8.33333333%;
 }
@@ -63,7 +63,7 @@
   width: 100%;
 }
 
-/*aplica para tablets*/
+/*sm: aplica para tablets*/
 @media (min-width: 768px) {
   .col-sm-1 {
     width: 8.33333333%;
@@ -113,6 +113,7 @@
     width: 100%;
   }
 }
+/*md : aplica para escritorio*/
 @media (min-width: 992px) {
   .col-md-1 {
     width: 8.33333333%;
