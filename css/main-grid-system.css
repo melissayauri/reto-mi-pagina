@@ -113,7 +113,7 @@
     width: 100%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .col-md-1 {
     width: 8.33333333%;
   }

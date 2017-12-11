@@ -10,13 +10,18 @@
   background-color: #2c3e50;
   height: 70px;
   font-size: 20px;
-/*  position: fixed;*/
+position: fixed;
   width: 100%;
 }
 /*eliminando el subrayado*/
 a{
   text-decoration: none;
-  color: black;
+  color: white;
+}
+a:hover{
+  background-color: #edcd1f;
+  padding: 10px;
+  border-radius: 5px;
 }
 /*estilo al menu izquierdo*/
 .nav-left{
@@ -30,6 +35,10 @@ width: 280px;
   /*se aplica para modificar su ancho*/
   display: inline-block;
   width: 70%;
+  color: black;
+}
+.title:hover{
+  background-color:#f0e68c;
 }
 /*aplicando estilo a la imagen idea*/
 .idea{
@@ -44,16 +53,16 @@ width: 280px;
   /*ubicación a la derecha*/
   float: right;
   /*espaciado*/
-  margin-right: 20px;
+  margin-right: 18px;
   margin-top: 20px;
   font-size: 20px;
 }
-/*
+
 .nav-right i{
   color: white;
   border: 1px solid white;
-  padding: 5px;
-}*/
+  padding: 1px;
+}
 /*aparece el icono de barras*/
 .view-mobile {
   display: block;
@@ -117,7 +126,6 @@ ul li{
 }
 /*estilos al texto de la segunda seccion*/
 .section-info{
-  outline: 1px solid red;
   background-color: #e8e8e8;
 }
 .text-info {
@@ -133,7 +141,11 @@ ul li{
   padding: 5px;
   background-color: #e8e8e8;
 }
-
+/*seccion contacto*/
+.contact{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
 /*agregando subrayado a los titulos*/
 h2:after{
   content: " ";
@@ -151,6 +163,7 @@ button{
   border-radius: 5px;
   margin-top: 5px;
 }
+/*espaciado entre cada parráfo*/
 p{
   margin-bottom: 15px;
 }
@@ -160,9 +173,10 @@ p{
   width: 300px;
   /*espaciado*/
   margin-top: 5px;
-  margin-left: 25px;
+  margin-left: 40px;
   margin-bottom: 5px;
-  margin-right: 1rem;
+  border: 1px solid #a9a9a9;
+
 }
 /*texto de la tercera seccion*/
 .text-extra {
@@ -191,50 +205,48 @@ footer{
   height: 40px;
   text-align: center;
 }
-/*estilos generales*/
-.contenedor{
-  width: 100%;
-}
-
-
-
-
 
 /*para escritorio*/
 @media screen and (min-width: 769px) {
   /*desaparece la version celular*/
-  .view-mobile {
+  .view-mobile{
     display: none;
   }
   /*aparece la version pc*/
   .view-desktop {
     display: block;
+
   }
   /*aplicando mas espaciado a la derecha*/
   .text-info{
-    margin-left: 5rem;
-    outline: 1px solid red;
-
+    margin-left: 3rem;
+    width: 120%;
+  }
+  /*sección contact*/
+  .contact{
+    margin-left: 18rem;
+    /*ancho*/
+    width: 50%;
+  }
+  /* cambiando los bloques de la tercera sección*/
+  .third-section{
+    margin-left: 3rem;
+    /*tamaño de la caja*/
+    width: 80%;
+    height: 500px;
+  }
+  /*cambiando el espaciado del texto de la tercera sección*/
+  .text-extra{
+    margin-right: 20px;
+  }
 }
-.third-section{
-  margin-left: 5rem;
-}
-
-}
+/*ipad*/
 @media screen and (max-width: 768px) {
   .third-section{
     margin-left: 1rem;
-    width: 90%;
+    width: 85%;
+  }
+  .text-extra {
+    margin-left: 10px;
   }
 }
-/*probad*/
-
-
-/*
-.title{
-  background-color: #edcd1f;
-  padding: 3px;
-  border: 1px solid #edcd1f;
-  width: 50%;
-
-}*/
